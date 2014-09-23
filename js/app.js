@@ -68,7 +68,7 @@ $(document).ready(function(){
 		};
 
 		if (secretnum == guess){
-			$('#feedback').append('!');
+			$('#feedback').append('<p>click new game to play again</p>');
 		}
 		else if (secretnum > guess){
 			$('#feedback').append('<p>(guess higher)</p>');
