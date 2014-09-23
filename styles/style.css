@@ -319,3 +319,7 @@ ul.guessBox li {
 	margin: 0.2em;
 	color: #fff;
 }
+
+#feedback p {
+	font-size: 14px;
+}
