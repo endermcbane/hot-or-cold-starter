@@ -19,7 +19,7 @@ $(document).ready(function(){
   		secretnum = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
   		$('#guessList').children().remove();
   		$('#feedback').html("Make Your Guess");
-  		$('#feedback').append(secretnum);
+  		
   		count = 0
   		$('#count').html(count);
   		return secretnum;
